@@ -1,0 +1,188 @@
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0f0e0e; /* Change color as needed */
+  font-family: "Gill Sans", sans-serif; /* Change font-family as needed */
+  
+}
+
+.navbar1 {
+  padding: 10px;
+  background: #0b34eb42;
+  font-size: 10px;
+}
+
+.nav-link {
+  text-align: right;
+  font-style: italic;
+  font-size: 20px;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0b34eb42;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* StickyNotes.css */
+.card-body .d-flex {
+  align-items: center;
+}
+
+.card-title {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+button {
+  margin: 0 5px;
+}
+
+
+.sidenav a {
+  padding: 6px 6px 6px 2px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0f0e0e;
+  display: block;
+}
+
+
+@media screen and (max-height: 550px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 10px;
+  }
+}
+
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #0b34eb42;
+  font-size: 16px;
+}
+
+
+.main {
+  margin-left: 200px;
+}
+
+.todo-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #2c2a2a;
+  border-radius: 5px;
+}
+
+
+.container-fluid {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 400vh;
+}
+
+.wrapper {
+  width: 10%;
+  max-width: 10px;
+}
+
+#currentTime {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  margin-top: 20px;
+  color: #0b0b0b;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#currentTimeContainer {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  margin-top: 20px;
+}
+
+
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.main {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.new-todo-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.new-todo-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px; /* Add some margin for spacing */
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border: 1px solid #939495;
+  text-align: center;
+}
+
+.card-body {
+  border: 1px solid #959393;
+  text-align: center;
+
+    
+}
+
+.form-label {
+  font-weight: bold;
+}
+

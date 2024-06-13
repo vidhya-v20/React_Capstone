@@ -1,0 +1,96 @@
+.sticky-notes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sticky-note {
+  background-color: #f9f9a6;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.thumbtack {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: #d9534f;
+}
+
+
+.add-button {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+  display: flex;
+  align-items: center;
+}
+
+.plus-icon {
+  margin-right: 8px;
+}
+
+.add-button:hover {
+  background-color: #45a049; /* Darken the button a little on hover */
+}
+
+
+
+
+
+/* StickyNotes.css */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(4, 4, 4);
+  float: left;
+  border-radius: 8px;
+  width: 80%;
+  background: #fdfcfcf3;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(19, 18, 18);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
